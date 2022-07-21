@@ -9,8 +9,8 @@ This is useful in NoHit runs to continue it without having to restart the game o
 :::
 
 # Requirements
-- Hollow Knight 1.4.3.2
-- Modding API 1.4.3.2-60
+- Hollow Knight 1.5.78
+- Modding API 1.5.78
 
 ## How to install
 

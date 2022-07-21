@@ -1,6 +1,8 @@
 # No Death Mod
 
-> 段落引用
+> This mod prevents your character from dying. You'll get the damage and the damage animation will happen, but if the hit deals you enough amount of damage to kill you, you won't dead.
+
+This is useful in NoHit runs to continue it without having to restart the game or load a save.
 
 # Requirements
 - Hollow Knight 1.4.3.2

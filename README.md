@@ -20,6 +20,12 @@ Unzip the [last release](https://github.com/carloslancha/no-death-mod/releases/l
 
 https://user-images.githubusercontent.com/5803434/137586581-d4ffd9dd-07cc-4984-bade-f2eb98df2866.mp4
 
+## For Devs
+```[Documentation for developers](language)
+
+```
+
+
 ## License
 
 GNU GPLv3 License © Carlos Lancha.<br/>

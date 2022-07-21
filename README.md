@@ -5,6 +5,8 @@ This mod prevents your character from dying. You'll get the damage and the damag
 
 This is useful in NoHit runs to continue it without having to restart the game or load a save.
 
+
+
 # Requirements
 - Hollow Knight 1.4.3.2
 - Modding API 1.4.3.2-60

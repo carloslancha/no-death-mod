@@ -1,4 +1,5 @@
-# no-death-mod
+# No Death Mod
+
 
 This mod prevents your character from dying. You'll get the damage and the damage animation will happen, but if the hit deals you enough amount of damage to kill you, you won't dead.
 

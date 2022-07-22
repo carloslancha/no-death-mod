@@ -13,8 +13,8 @@
         <FileAlignment>512</FileAlignment>
     
         <HollowKnightDir><!-- Your base path to Steam --></HollowKnightDir>
-
     </PropertyGroup>
+    
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
         <DebugSymbols>true</DebugSymbols>

@@ -2,7 +2,7 @@
 
 ## Requirements to work with mod
 -   [HK ModdingAPI 1.5.78](https://github.com/hk-modding/api)
--   Set your base path to Steam in the file csproj (line 16)
+-   Set your base path to Steam in the file csproj (line 15)
     
 ```
     <!-- In Example -->

@@ -11,6 +11,9 @@ namespace NoDeath {
         public int TakeHealth(int damageAmount) {
             int currentHealth = PlayerData.instance.health;
 
+            LogDebug("Health" + currentHealth);
+            LogDebug("Damage" + damageAmount);
+
             if (currentHealth - damageAmount < 1)
                 return 0;
             

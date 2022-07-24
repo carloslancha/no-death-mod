@@ -2,7 +2,7 @@
 
 namespace NoDeath {
     public class NoDeath : Mod {
-        private const string version = "1.5.78";
+        private const string version = "1.5.78-1";
         
         public override void Initialize() {
             ModHooks.TakeHealthHook += TakeHealth;

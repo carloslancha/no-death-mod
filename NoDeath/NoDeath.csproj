@@ -12,7 +12,7 @@
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     
-        <HollowKnightDir>G:\Program Files (x86)</HollowKnightDir>
+        <HollowKnightDir><!-- Your base path to Steam --></HollowKnightDir>
     </PropertyGroup>
     
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

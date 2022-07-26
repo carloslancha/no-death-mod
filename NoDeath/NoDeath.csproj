@@ -9,9 +9,12 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>NoDeath</RootNamespace>
         <AssemblyName>NoDeath</AssemblyName>
-        <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+    
+        <HollowKnightDir><!-- Your base path to Steam --></HollowKnightDir>
     </PropertyGroup>
+    
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
         <DebugSymbols>true</DebugSymbols>
@@ -31,9 +34,10 @@
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
+    
     <ItemGroup>
         <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>C:\Juegos\Steam\steamapps\common\Hollow Knight 1.4.3.2 Mods\hollow_knight_Data\Managed\Assembly-CSharp.dll</HintPath>
+          <HintPath>$(HollowKnightDir)\Hollow Knight\hollow_knight_Data\Managed\Assembly-CSharp.dll</HintPath>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
@@ -41,8 +45,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Class1.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="NoDeath.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
